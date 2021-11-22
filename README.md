@@ -11,3 +11,5 @@ pip install telepot
 #execute file
 
 python ip.py
+
+you can try with start.py
