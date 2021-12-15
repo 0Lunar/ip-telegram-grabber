@@ -12,3 +12,4 @@ python ip.py
 you can try with start.py
 
 to start in background the process open ip.pyw editing the file with the token and chat_id
+ 
