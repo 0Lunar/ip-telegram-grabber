@@ -22,8 +22,8 @@ import telepot
 
 enjoy="enjoy ;)"
 
-TOKEN="2140343591:AAG3OwNwdSylSDnlP0s7civc7dEagQX8VaY"
-chat_id="-763819940"
+TOKEN="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+chat_id="xxxxxxxxxxxxxxx"
 
 the_location_zone = "---------------localizzation---------------"
 
